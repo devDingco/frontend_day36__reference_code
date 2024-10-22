@@ -1,0 +1,27 @@
+.listBody {
+  align-items: center; /* 가로 방향으로 중앙 정렬 */
+  width: 80%; /* 전체 너비의 80% 사용 */
+  margin: 0 auto; /* 중앙 정렬을 위한 자동 마진 */
+  justify-content: center;
+}
+.title {
+  font-weight: bold;
+  color: #333;
+
+  min-width: 100px;
+}
+
+.description {
+  color: #666;
+  min-width: 100px;
+}
+
+.contents {
+  min-width: 400px;
+
+  color: #444;
+}
+
+.writer {
+  min-width: 100px;
+}
