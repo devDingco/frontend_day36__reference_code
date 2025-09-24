@@ -3,6 +3,12 @@
   width: 80%; /* 전체 너비의 80% 사용 */
   margin: 0 auto; /* 중앙 정렬을 위한 자동 마진 */
   justify-content: center;
+
+  padding: 2rem;
+  border-radius: 1rem;
+  border: 1px solid #e0e0e0;
+
+  margin-top: 2rem;
 }
 .title {
   font-weight: bold;
@@ -24,4 +30,22 @@
 
 .writer {
   min-width: 100px;
+}
+
+.listHover {
+  cursor: pointer;
+}
+
+/* 헤더 영역 스타일 */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 0 8px;
+}
+
+.headerTitle {
+  margin: 0;
+  color: black;
 }

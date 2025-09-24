@@ -16,6 +16,7 @@
     "@types/node": "22.5.4",
     "@types/react": "^18.3.11",
     "@types/react-dom": "18.3.0",
+    "@supabase/supabase-js": "^2.57.4",
     "antd": "^5.21.1",
     "apollo-upload-client": "^18.0.1",
     "autoprefixer": "10.4.20",
