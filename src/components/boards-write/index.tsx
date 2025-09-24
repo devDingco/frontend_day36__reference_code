@@ -239,6 +239,7 @@ export default function BoardWritePage(props: IBoardWriteProps) {
                         justifyContent: "center",
                         alignItems: "center",
                         backgroundColor: "#f0f0f0",
+                        cursor: "pointer",
                       }}
                     >
                       <img
@@ -246,7 +247,7 @@ export default function BoardWritePage(props: IBoardWriteProps) {
                         style={{
                           width: "100%",
                           height: "100%",
-                          objectFit: "contain",
+                          objectFit: "cover",
                         }}
                       />
                       {hoveredIndex === index && ( // hover된 이미지의 인덱스와 비교
@@ -259,7 +260,7 @@ export default function BoardWritePage(props: IBoardWriteProps) {
                             backgroundColor: "black",
                             color: "white",
                             border: "none",
-                            borderRadius: ".3125rem",
+                            borderRadius: "100%",
                             cursor: "pointer",
                             width: 24,
                             height: 24,
