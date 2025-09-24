@@ -259,8 +259,13 @@ export default function BoardWritePage(props: IBoardWriteProps) {
                             backgroundColor: "black",
                             color: "white",
                             border: "none",
-                            borderRadius: "5px",
+                            borderRadius: ".3125rem",
                             cursor: "pointer",
+                            width: 24,
+                            height: 24,
+                            display: "flex",
+                            justifyContent: "center",
+                            alignItems: "center",
                           }}
                         >
                           <CloseOutlined />
