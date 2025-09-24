@@ -5,41 +5,50 @@ import { useBoardDetail } from "./hook";
 import { LikeOutlined, DislikeOutlined } from "@ant-design/icons";
 import { Tooltip } from "antd";
 import YouTube from "react-youtube";
+import profileImage from "@assets/profile_image.png";
+import linkImage from "@assets/link.png";
+import locationImage from "@assets/location.png";
+import cheongsanImage from "@assets/cheongsan.png";
+import neotubeImage from "@assets/neotube.png";
+import badImage from "@assets/bad.png";
+import goodImage from "@assets/good.png";
+import hambergerImage from "@assets/hamberger.png";
+import pencilImage from "@assets/pencil.png";
 const IMAGE_SRC = {
   profileImage: {
-    src: require("@assets/profile_image.png"),
+    src: profileImage,
     alt: "프로필이미지",
   },
   linkImage: {
-    src: require("@assets/link.png"),
+    src: linkImage,
     alt: "링크아이콘",
   },
   locationImage: {
-    src: require("@assets/location.png"),
+    src: locationImage,
     alt: "위치아이콘",
   },
   cheongsanImage: {
-    src: require("@assets/cheongsan.png"),
+    src: cheongsanImage,
     alt: "청산사진",
   },
   neotubeImage: {
-    src: require("@assets/neotube.png"),
+    src: neotubeImage,
     alt: "너튜브사진",
   },
   badImage: {
-    src: require("@assets/bad.png"),
+    src: badImage,
     alt: "싫어요",
   },
   goodImage: {
-    src: require("@assets/good.png"),
+    src: goodImage,
     alt: "좋아요",
   },
   hamberger: {
-    src: require("@assets/hamberger.png"),
+    src: hambergerImage,
     alt: "목록아이콘",
   },
   pencil: {
-    src: require("@assets/pencil.png"),
+    src: pencilImage,
     alt: "수정아이콘",
   },
 } as const;

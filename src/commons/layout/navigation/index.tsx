@@ -1,16 +1,20 @@
 import styles from "./styles.module.css";
 import { useNavigation } from "./hook";
+import tripImage from "@assets/icon.png";
+import profileImage from "@assets/profile_image.png";
+import dropDownImage from "@assets/down_arrow.png";
+
 const IMAGE_SRC = {
   tripImage: {
-    src: require("@assets/icon.png"),
+    src: tripImage,
     alt: "아이콘이미지",
   },
   profileImage: {
-    src: require("@assets/profile_image.png"),
+    src: profileImage,
     alt: "프로필이미지",
   },
   dropDownImage: {
-    src: require("@assets/down_arrow.png"),
+    src: dropDownImage,
     alt: "드롭다운이미지",
   },
 };

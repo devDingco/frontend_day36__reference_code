@@ -4,6 +4,7 @@ import Image from "next/image";
 import { CalendarOutlined, SearchOutlined } from "@ant-design/icons";
 import { ISearchBar } from "./types";
 import { useSearchBar } from "./hook";
+import leftIcon from "@assets/left_icon.png";
 
 export default function SearchBar({
   setKeyword,
@@ -16,7 +17,7 @@ export default function SearchBar({
 }: ISearchBar) {
   const IMAGE_SRC = {
     writeButton: {
-      src: require("@assets/left_icon.png"),
+      src: leftIcon,
       alt: "등록버튼",
     },
   };

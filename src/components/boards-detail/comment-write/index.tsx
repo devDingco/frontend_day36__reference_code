@@ -3,13 +3,16 @@ import styles from "./styles.module.css";
 import Image from "next/image";
 import { Rate, Modal } from "antd";
 import { ICommentWriteProps } from "./types";
+import chatImage from "@assets/chat.png";
+import starsImage from "@assets/fivestars.png";
+
 const IMAGE_SRC = {
   chatImage: {
-    src: require("@assets/chat.png"),
+    src: chatImage,
     alt: "댓글아이콘",
   },
   starsImage: {
-    src: require("@assets/fivestars.png"),
+    src: starsImage,
     alt: "평점",
   },
 };

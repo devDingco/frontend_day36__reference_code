@@ -7,6 +7,7 @@ import { IBoardWriteProps } from "./types";
 import { Modal } from "antd";
 import DaumPostcodeEmbed from "react-daum-postcode";
 import { CloseOutlined } from "@ant-design/icons";
+import addImage from "@assets/add_image.png";
 
 export default function BoardWritePage(props: IBoardWriteProps) {
   const { isEdit } = props;
@@ -217,7 +218,7 @@ export default function BoardWritePage(props: IBoardWriteProps) {
                     />
                     <Image
                       onClick={() => handleImageClick(index)}
-                      src={require("@assets/add_image.png")}
+                      src={addImage}
                       alt="기본이미지"
                     />
                   </>

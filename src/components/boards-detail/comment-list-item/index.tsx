@@ -4,21 +4,26 @@ import { Rate } from "antd";
 import { IcommentList } from "./types";
 import { useState } from "react";
 import CommentWrite from "../comment-write";
+import profileImage from "@assets/profile_image.png";
+import starsImage from "@assets/fivestars.png";
+import editImage from "@assets/edit.png";
+import closeImage from "@assets/close.png";
+
 const IMAGE_SRC = {
   profileImage: {
-    src: require("@assets/profile_image.png"),
+    src: profileImage,
     alt: "프로필이미지",
   },
   starsImage: {
-    src: require("@assets/fivestars.png"),
+    src: starsImage,
     alt: "평점이미지",
   },
   editImage: {
-    src: require("@assets/edit.png"),
+    src: editImage,
     alt: "편집버튼",
   },
   closeImage: {
-    src: require("@assets/close.png"),
+    src: closeImage,
     alt: "삭제버튼",
   },
 };

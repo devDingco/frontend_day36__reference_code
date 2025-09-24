@@ -3,10 +3,11 @@ import Image from "next/image";
 import { IBoardList } from "./types";
 import { useBoardList } from "./hook";
 import { Modal } from "antd";
+import deleteImage from "@assets/delete.png";
 
 const IMAGE_SRC = {
   deleteImage: {
-    src: require("@assets/delete.png"),
+    src: deleteImage,
     alt: "삭제버튼",
   },
 };
@@ -23,7 +24,7 @@ export default function BoardList(props: IBoardList) {
     handleCancel,
   } = useBoardList(props);
   console.log("props?.data?.fetchBoards:::", props?.data?.fetchBoards);
-  // return <> </>;
+  
   return (
     <div className={styles.boardBody}>
       <div className={styles.boardFrame}>
